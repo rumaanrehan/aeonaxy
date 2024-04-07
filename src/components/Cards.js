@@ -29,7 +29,6 @@ const Cards = () => {
                 <div className="flex items-center space-x-4">
                     <span className="relative flex h-10 w-10 bg-grey-100 rounded-full">
                         <FontAwesomeIcon className='aspect-square h-10 w-10' icon={card.image}/>
-                        <img className="" alt="Resolution Center" src={card.image}/>
                     </span>
                     <div>
                         <h5 className="lg:text-base font-semibold">{card.title}</h5>
